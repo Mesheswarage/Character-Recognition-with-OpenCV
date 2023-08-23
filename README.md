@@ -20,3 +20,6 @@ Identifies characters within an input image using contour detection and bounding
 Compares detected characters with the alphabet database using pixel-to-pixel correlation.
 
 Simple and fast.
+
+![Screenshot (490)](https://github.com/Mesheswarage/Text-Recognition-with-OpenCV/assets/97176530/241b7f6d-1d87-4037-b203-950441d36a41)
+
