@@ -6,7 +6,7 @@ tresh,BW_im = cv2.threshold(im,150,255,cv2.THRESH_BINARY_INV)
 im2 = BW_im.copy()
 
 
-contours,hi =cv2.findContours(BW_im,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)  #(image, retreval type, )
+contours,hi =cv2.findContours(BW_im,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE) 
 i=0
 for con in contours:
     x,y,w,h = cv2.boundingRect(con)
